@@ -917,7 +917,7 @@
 
       /* Every section = exactly one screen */
       section { height: 100vh; height: 100svh; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
-      .activity-section { height: 100vh; height: 100svh; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-start; padding: 0; }
+      .activity-section { height: auto; overflow: visible; display: flex; flex-direction: column; justify-content: flex-start; padding: 0; }
       footer { height: auto; min-height: unset; }
       #past-events { display: flex; flex-direction: column; justify-content: flex-start; height: auto; min-height: 0; overflow: hidden; padding: 52px 0 52px; background: var(--gray); }
 
@@ -974,7 +974,7 @@
       p.section-lead { font-size: .75rem; line-height: 1.6; }
 
       /* Activity sections */
-      .activity-section { padding: 52px 20px 0; overflow: hidden; }
+      .activity-section { padding: 52px 20px 52px; }
       .activity-header { padding: 0 0 24px; }
       .activity-header { padding: 0 20px 56px; }
       .activity-number { font-size: .6rem; margin-bottom: 6px; }
