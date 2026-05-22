@@ -801,9 +801,9 @@
     .event-card-name { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.1rem; line-height: 1.2; letter-spacing: -.01em; color: var(--white); }
 
     /* PARTNERS */
-    #partners { background: var(--gray); min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+    #partners { background: var(--gray); min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 120px; }
     #partners .section-title { font-size: clamp(3.5rem, 8vw, 8rem); font-weight: 900; letter-spacing: -.04em; line-height: 1; margin-bottom: 64px; }
-    .partners-logos { display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: baseline; margin-top: 0; }
+    .partners-logos { display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: baseline; margin-top: 120px; }
     .partner-name {
       font-family: 'Inter Tight', sans-serif;
       font-weight: 900;
@@ -1455,7 +1455,7 @@
 </section>
 
 <!-- PAST EVENTS -->
-<section id="past-events">
+<section id="past-events" class="on-gray">
   <div class="activity-header fu">
     <div class="activity-number dark">Наші події</div>
     <div class="activity-header-row">
